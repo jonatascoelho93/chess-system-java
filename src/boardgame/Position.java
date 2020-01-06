@@ -25,7 +25,9 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
-
+	
+	
+	//Sobreescrevento o toString
 	@Override
 	public String toString() {
 		return row + ", " + column;
